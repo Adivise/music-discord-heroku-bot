@@ -1,12 +1,12 @@
 {
-  "name": "discord.js-example-bot",
+  "name": "music-heroku",
   "version": "2.0.0",
-  "description": "Example Music Bot by MrSmooK (updated)",
+  "description": "Bot Example",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
-  "author": "MrSmooK",
+  "author": "nanotect",
   "license": "MIT",
   "dependencies": {
     "discord.js": "12.2.0",

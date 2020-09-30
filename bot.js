@@ -5,12 +5,12 @@ const client = new Discord.Client();
 const PREFIX = process.env.PREFIX;
 
 const music = new Music(client, {
-    youtubeKey: process.env.BOT_YOUTUBE_TOKEN,
+    youtubeKey: process.env.YT_API,
     prefix: PREFIX,
     ownerOverMember: true,
-    botOwner: '209728169131900928',
-    djRole:'GOD',
-    maxQueueSize: "100",
+    botOwner: '381369002217439232',
+    djRole:'Developer',
+    maxQueueSize: "500",
     disableLoop: true,
 });
 
